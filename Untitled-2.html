@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>练习 - 修改样式</title>
+    <style>
+        .pink {
+            background: pink;
+            color: hotpink;
+        }
+    </style>
+</head>
+<body>
+  <div class="box">随便一些文本内容</div>
+  <script>
+    // 获取 DOM 节点
+    const box = document.querySelector('.intro')
+    box.className = 'pink'
+  </script>
+</body>
+</html>
